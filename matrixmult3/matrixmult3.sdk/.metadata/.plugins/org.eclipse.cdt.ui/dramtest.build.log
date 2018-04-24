@@ -1,8 +1,8 @@
-12:12:33 **** Auto Build of configuration Debug for project dramtest ****
+12:33:38 **** Incremental Build of configuration Debug for project dramtest ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  
 make: Nothing to be done for 'main-build'.
 
-12:12:34 Build Finished (took 312ms)
+12:33:38 Build Finished (took 314ms)
 

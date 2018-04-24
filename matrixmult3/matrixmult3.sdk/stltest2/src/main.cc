@@ -32,6 +32,5 @@ void compute_dft_from_signal(const double signal[], double power_spectrum[]) {
 
 int main()
 {
-
 	return 0;
 }

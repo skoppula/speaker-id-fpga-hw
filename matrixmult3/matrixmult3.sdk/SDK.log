@@ -18,3 +18,11 @@
 10:32:55 INFO  : Successfully done setting SDK workspace  
 10:32:55 INFO  : Processing command line option -hwspec /home/skoppula/xilinx-projects/speaker-id-fpga-hw/matrixmult3/matrixmult3.sdk/design_1_wrapper.hdf.
 10:32:56 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:22:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:22:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6CAC6A" && level==0} -index 1' command is executed.
+12:22:11 INFO  : FPGA configured successfully with bitstream "/home/skoppula/xilinx-projects/speaker-id-fpga-hw/matrixmult3/matrixmult3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:23:18 INFO  : ps7_init is completed.
+12:23:18 INFO  : ps7_post_config is completed.
+12:23:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:24:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:33:42 INFO  : Processor reset is completed for ps7_cortexa9_0
