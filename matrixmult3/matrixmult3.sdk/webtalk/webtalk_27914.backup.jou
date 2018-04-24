@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# 
+# Start of session at: Mon Apr 23 23:46:47 2018
+# Process ID: 27914
+# Current directory: /home/skoppula/xilinx-projects/speaker-id-fpga-hw/matrixmult3/matrixmult3.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/skoppula/xilinx-projects/speaker-id-fpga-hw/matrixmult3/matrixmult3.sdk/webtalk/webtalk.log
+# Journal file: /home/skoppula/xilinx-projects/speaker-id-fpga-hw/matrixmult3/matrixmult3.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

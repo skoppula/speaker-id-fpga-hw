@@ -1,24 +1,1836 @@
-12:33:34 **** Incremental Build of configuration Release for project speakeridui ****
+13:32:26 **** Incremental Build of configuration Release for project speakeridui ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  
 make: Nothing to be done for 'main-build'.
-12:33:38 **** Incremental Build of configuration Debug for project dramtest ****
+13:32:42 **** Incremental Build of configuration Debug for project dramtest ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  
 make: Nothing to be done for 'main-build'.
-12:33:39 **** Incremental Build of configuration Release for project leduarttest ****
+13:32:43 **** Incremental Build of configuration Release for project leduart ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  
 make: Nothing to be done for 'main-build'.
-12:33:40 **** Incremental Build of configuration Release for project speakeridui ****
+13:32:44 **** Incremental Build of configuration Release for project leduarttest ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  
 make: Nothing to be done for 'main-build'.
-12:33:41 **** Incremental Build of configuration Debug for project stltest2 ****
+13:32:45 **** Incremental Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:32:46 **** Incremental Build of configuration Debug for project stltest2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:33:25 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27672	   1172	  22600	  51444	   c8f4	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:33:52 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27680	   1172	  22600	  51452	   c8fc	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:34:05 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27692	   1172	  22600	  51464	   c908	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:34:31 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:73:5: error: too many arguments to function 'print'
+     print("%d", led)
+     ^~~~~
+In file included from ../src/speakeridui.c:19:0:
+../../speakeridui_bsp/ps7_cortexa9_0/include/xil_printf.h:36:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/speakeridui.c:75:5: error: expected ';' before 'print'
+     print(message);
+     ^~~~~
+make: *** [src/speakeridui.o] Error 1
+src/subdir.mk:24: recipe for target 'src/speakeridui.o' failed
+13:34:37 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:71:5: error: too many arguments to function 'print'
+     print("%d", led);
+     ^~~~~
+In file included from ../src/speakeridui.c:19:0:
+../../speakeridui_bsp/ps7_cortexa9_0/include/xil_printf.h:36:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+make: *** [src/speakeridui.o] Error 1
+src/subdir.mk:24: recipe for target 'src/speakeridui.o' failed
+13:34:48 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27712	   1172	  22600	  51484	   c91c	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:34:51 **** Incremental Build of configuration Debug for project dramtest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:34:52 **** Incremental Build of configuration Release for project leduart ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:34:53 **** Incremental Build of configuration Release for project leduarttest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:34:54 **** Incremental Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:34:55 **** Incremental Build of configuration Debug for project stltest2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:36:29 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27744	   1172	  22600	  51516	   c93c	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:37:06 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27776	   1172	  22600	  51548	   c95c	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:37:19 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27776	   1172	  22600	  51548	   c95c	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:37:50 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27832	   1172	  22600	  51604	   c994	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:38:01 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27824	   1172	  22600	  51596	   c98c	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:38:14 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27868	   1172	  22600	  51640	   c9b8	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:38:32 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27900	   1172	  22600	  51672	   c9d8	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:38:42 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27900	   1172	  22600	  51672	   c9d8	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:39:13 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28004	   1172	  22600	  51776	   ca40	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:39:17 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28008	   1172	  22600	  51780	   ca44	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:39:21 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28008	   1172	  22600	  51780	   ca44	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:40:15 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28096	   1172	  22600	  51868	   ca9c	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:41:11 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28144	   1172	  22600	  51916	   cacc	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:41:14 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28152	   1172	  22600	  51924	   cad4	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:41:27 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28132	   1172	  22600	  51904	   cac0	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:41:37 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28132	   1172	  22600	  51904	   cac0	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:42:00 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28136	   1172	  22600	  51908	   cac4	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:42:29 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28132	   1172	  22600	  51904	   cac0	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:42:38 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28132	   1172	  22600	  51904	   cac0	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:43:09 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28248	   1172	  22600	  52020	   cb34	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:43:15 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28248	   1172	  22600	  52020	   cb34	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:43:18 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28248	   1172	  22600	  52020	   cb34	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:43:26 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28256	   1172	  22600	  52028	   cb3c	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:43:33 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28264	   1172	  22600	  52036	   cb44	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:43:36 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28272	   1172	  22600	  52044	   cb4c	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:43:40 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28280	   1172	  22600	  52052	   cb54	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:44:03 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28276	   1172	  22600	  52048	   cb50	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:44:21 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28296	   1172	  22600	  52068	   cb64	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:44:33 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28312	   1172	  22600	  52084	   cb74	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:44:36 **** Incremental Build of configuration Debug for project dramtest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:44:37 **** Incremental Build of configuration Release for project leduart ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:44:38 **** Incremental Build of configuration Release for project leduarttest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:44:39 **** Incremental Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:44:40 **** Incremental Build of configuration Debug for project stltest2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:44:51 **** Incremental Build of configuration Debug for project dramtest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:44:52 **** Incremental Build of configuration Release for project leduart ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:44:53 **** Incremental Build of configuration Release for project leduarttest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:44:54 **** Incremental Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:44:55 **** Incremental Build of configuration Debug for project stltest2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:45:40 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28348	   1172	  22600	  52120	   cb98	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:46:05 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28352	   1172	  22600	  52124	   cb9c	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:46:08 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:51:6: warning: unused variable 'led' [-Wunused-variable]
+  int led = LED;
+      ^~~
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28352	   1172	  22600	  52124	   cb9c	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:46:24 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28352	   1172	  22600	  52124	   cb9c	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:46:28 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28384	   1172	  22600	  52156	   cbbc	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:46:31 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28384	   1172	  22600	  52156	   cbbc	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:46:50 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28396	   1172	  22600	  52168	   cbc8	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:46:55 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28396	   1172	  22600	  52168	   cbc8	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:47:41 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28396	   1172	  22600	  52168	   cbc8	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:47:50 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28396	   1172	  22600	  52168	   cbc8	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:48:31 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28408	   1172	  22600	  52180	   cbd4	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:49:24 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28400	   1172	  22600	  52172	   cbcc	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:49:33 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28416	   1172	  22600	  52188	   cbdc	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:52:58 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28408	   1172	  22600	  52180	   cbd4	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:54:14 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28372	   1172	  22600	  52144	   cbb0	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:54:19 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28384	   1172	  22600	  52156	   cbbc	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:54:28 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28384	   1172	  22600	  52156	   cbbc	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:54:57 **** Incremental Build of configuration Debug for project dramtest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:54:58 **** Incremental Build of configuration Release for project leduart ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:54:59 **** Incremental Build of configuration Release for project leduarttest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:55:00 **** Incremental Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:55:01 **** Incremental Build of configuration Debug for project stltest2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:56:01 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28384	   1172	  22600	  52156	   cbbc	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:56:05 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28384	   1172	  22600	  52156	   cbbc	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:56:23 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28400	   1172	  22600	  52172	   cbcc	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:56:42 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28400	   1172	  22600	  52172	   cbcc	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+13:57:16 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28432	   1172	  22600	  52204	   cbec	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+14:00:44 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28428	   1172	  22600	  52200	   cbe8	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+14:00:52 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28428	   1172	  22600	  52200	   cbe8	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+14:01:25 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28536	   1172	  22600	  52308	   cc54	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+14:01:28 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28536	   1172	  22600	  52308	   cc54	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+14:01:45 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28688	   1172	  22600	  52460	   ccec	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+14:01:50 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28720	   1172	  22600	  52492	   cd0c	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+14:02:45 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28852	   1172	  22600	  52624	   cd90	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+14:02:53 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28864	   1172	  22600	  52636	   cd9c	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+14:03:03 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28796	   1172	  22600	  52568	   cd58	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+14:03:17 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28796	   1172	  22600	  52568	   cd58	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+14:03:37 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28756	   1172	  22600	  52528	   cd30	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+14:03:40 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28756	   1172	  22600	  52528	   cd30	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+14:03:50 **** Incremental Build of configuration Debug for project dramtest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:03:51 **** Incremental Build of configuration Release for project leduart ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:03:52 **** Incremental Build of configuration Release for project leduarttest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:03:53 **** Incremental Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:03:54 **** Incremental Build of configuration Debug for project stltest2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:04:50 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28772	   1172	  22600	  52544	   cd40	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+14:05:31 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28716	   1172	  22600	  52488	   cd08	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+14:11:00 **** Incremental Build of configuration Debug for project dramtest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:11:01 **** Incremental Build of configuration Release for project leduart ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:11:02 **** Incremental Build of configuration Release for project leduarttest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:11:03 **** Incremental Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:11:04 **** Incremental Build of configuration Debug for project stltest2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:11:18 **** Incremental Build of configuration Debug for project dramtest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:11:20 **** Incremental Build of configuration Release for project leduart ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:11:21 **** Incremental Build of configuration Release for project leduarttest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:11:22 **** Incremental Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:11:23 **** Incremental Build of configuration Debug for project stltest2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:12:04 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28716	   1172	  22600	  52488	   cd08	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+14:18:25 **** Incremental Build of configuration Debug for project dramtest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:18:26 **** Incremental Build of configuration Release for project leduart ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:18:27 **** Incremental Build of configuration Release for project leduarttest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:18:29 **** Incremental Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:18:30 **** Incremental Build of configuration Debug for project stltest2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:19:46 **** Incremental Build of configuration Debug for project dramtest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:19:48 **** Incremental Build of configuration Release for project leduart ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:19:49 **** Incremental Build of configuration Release for project leduarttest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:19:50 **** Incremental Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:19:52 **** Incremental Build of configuration Debug for project stltest2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:22:19 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28716	   1172	  22600	  52488	   cd08	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+15:32:24 **** Incremental Build of configuration Debug for project dramtest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:32:25 **** Incremental Build of configuration Release for project leduart ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:32:26 **** Incremental Build of configuration Release for project leduarttest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:32:28 **** Incremental Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:32:29 **** Incremental Build of configuration Debug for project stltest2 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  

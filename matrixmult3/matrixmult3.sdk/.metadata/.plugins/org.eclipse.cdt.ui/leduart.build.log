@@ -1,0 +1,8 @@
+15:32:25 **** Incremental Build of configuration Release for project leduart ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+
+15:32:25 Build Finished (took 414ms)
+

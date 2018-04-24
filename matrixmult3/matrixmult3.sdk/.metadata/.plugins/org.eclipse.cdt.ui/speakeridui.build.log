@@ -1,8 +1,8 @@
-12:33:40 **** Incremental Build of configuration Release for project speakeridui ****
+15:32:28 **** Incremental Build of configuration Release for project speakeridui ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  
 make: Nothing to be done for 'main-build'.
 
-12:33:40 Build Finished (took 312ms)
+15:32:28 Build Finished (took 415ms)
 
