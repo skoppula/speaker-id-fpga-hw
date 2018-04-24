@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.1 (lin64) Build 1846317 Fri Apr 14 18:54:47 MDT 2017
-| Date             : Fri Mar 30 11:04:38 2018
+| Date             : Mon Apr 23 19:24:57 2018
 | Host             : neptune running 64-bit Ubuntu 16.04.4 LTS
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
@@ -30,9 +30,9 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 1.553 |
+| Total On-Chip Power (W)  | 1.551 |
 | Dynamic (W)              | 1.402 |
-| Device Static (W)        | 0.151 |
+| Device Static (W)        | 0.149 |
 | Effective TJA (C/W)      | 11.5  |
 | Max Ambient (C)          | 67.1  |
 | Junction Temperature (C) | 42.9  |
@@ -49,18 +49,18 @@ Table of Contents
 +-------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
-| Clocks                  |     0.002 |        3 |       --- |             --- |
+| Clocks                  |     0.001 |        3 |       --- |             --- |
 | Slice Logic             |    <0.001 |     1338 |       --- |             --- |
-|   LUT as Logic          |    <0.001 |      354 |     53200 |            0.67 |
+|   LUT as Logic          |    <0.001 |      355 |     53200 |            0.67 |
 |   Register              |    <0.001 |      592 |    106400 |            0.56 |
 |   CARRY4                |    <0.001 |       18 |     13300 |            0.14 |
 |   LUT as Shift Register |    <0.001 |       62 |     17400 |            0.36 |
 |   Others                |     0.000 |      191 |       --- |             --- |
-| Signals                 |    <0.001 |      951 |       --- |             --- |
+| Signals                 |    <0.001 |      948 |       --- |             --- |
 | I/O                     |    <0.001 |        4 |       125 |            3.20 |
 | PS7                     |     1.399 |        1 |       --- |             --- |
-| Static Power            |     0.151 |          |           |                 |
-| Total                   |     1.553 |          |           |                 |
+| Static Power            |     0.149 |          |           |                 |
+| Total                   |     1.551 |          |           |                 |
 +-------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -70,11 +70,11 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.017 |       0.003 |      0.014 |
+| Vccint    |       1.000 |     0.016 |       0.002 |      0.014 |
 | Vccaux    |       1.800 |     0.020 |       0.000 |      0.020 |
-| Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |
+| Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
-| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vcco18    |       1.800 |     0.001 |       0.000 |      0.001 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
@@ -147,7 +147,7 @@ Table of Contents
 | Name                                             | Power (W) |
 +--------------------------------------------------+-----------+
 | design_1_wrapper                                 |     1.402 |
-|   design_1_i                                     |     1.402 |
+|   design_1_i                                     |     1.401 |
 |     axi_gpio_0                                   |    <0.001 |
 |       U0                                         |    <0.001 |
 |         AXI_LITE_IPIF_I                          |    <0.001 |

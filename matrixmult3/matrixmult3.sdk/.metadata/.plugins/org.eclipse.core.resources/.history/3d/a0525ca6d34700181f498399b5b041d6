@@ -1,0 +1,12 @@
+/*
+ * Empty C++ Application
+ */
+#include<algorithm>
+#include<vector>
+
+
+int main()
+{
+
+	return 0;
+}

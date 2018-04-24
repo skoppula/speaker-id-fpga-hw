@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/skoppula/xilinx_projects/zybo_7020_test/matrixmult2/matrixmult2.runs/design_1_processing_system7_0_0_synth_1'
+HD_PWD='/home/skoppula/xilinx-projects/speaker-id-fpga-hw/matrixmult2/matrixmult2.runs/design_1_processing_system7_0_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

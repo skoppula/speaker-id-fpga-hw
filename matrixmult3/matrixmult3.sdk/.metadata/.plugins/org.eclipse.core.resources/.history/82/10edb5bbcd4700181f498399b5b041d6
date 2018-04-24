@@ -1,0 +1,9 @@
+/*
+ * Empty C++ Application
+ */
+#include<algorithm>
+
+int main()
+{
+	return 0;
+}

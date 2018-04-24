@@ -1,0 +1,23 @@
+11:24:51 **** Auto Build of configuration Debug for project stltest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/rsa_auth_app.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rsa_auth_app.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../stltest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rsa_auth_app.d" -MT"src/rsa_auth_app.o" -o "src/rsa_auth_app.o" "../src/rsa_auth_app.c"
+Finished building: ../src/rsa_auth_app.c
+ 
+Building target: stltest.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../stltest_bsp/ps7_cortexa9_0/lib -o "stltest.elf"  ./src/rsa_auth_app.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+Finished building target: stltest.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size stltest.elf  |tee "stltest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37200	   1212	  22584	  60996	   ee44	stltest.elf
+Finished building: stltest.elf.size
+ 
+
+11:24:52 Build Finished (took 363ms)
+

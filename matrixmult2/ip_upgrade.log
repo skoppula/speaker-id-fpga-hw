@@ -1,0 +1,118 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.1 (lin64) Build 1846317 Fri Apr 14 18:54:47 MDT 2017
+| Date         : Mon Apr 23 19:22:02 2018
+| Host         : neptune running 64-bit Ubuntu 16.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_rst_ps7_0_50M_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_rst_ps7_0_50M_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 11)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.1 (lin64) Build 1846317 Fri Apr 14 18:54:47 MDT 2017
+| Date         : Mon Apr 23 19:22:02 2018
+| Host         : neptune running 64-bit Ubuntu 16.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_processing_system7_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_processing_system7_0_0 (xilinx.com:ip:processing_system7:5.5 (Rev. 5)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_USE_AXI_NONSECURE with default value 0 : a parameter called PCW_USE_AXI_NONSECURE already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP0_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP0_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP1_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP1_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP0_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP1_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.1 (lin64) Build 1846317 Fri Apr 14 18:54:47 MDT 2017
+| Date         : Mon Apr 23 19:22:02 2018
+| Host         : neptune running 64-bit Ubuntu 16.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_gpio_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of design_1_axi_gpio_0_0 (xilinx.com:ip:axi_gpio:2.0 (Rev. 14)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Customization warnings
+-------------------------
+
+The normal upgrade process failed due to validation failures in the given configuration . Attempting partial upgrade.
+This process will attempt to set as many user parameters as possible.Please check the parameters whose values were not applied
+
+Unable to set the value 'leds_4bits' on parameter 'GPIO BOARD INTERFACE' due to the following failure - 
+Value 'leds_4bits' is out of the range for parameter 'GPIO BOARD INTERFACE(GPIO_BOARD_INTERFACE)' for BD Cell 'design_1_axi_gpio_0_0' . Valid values are - Custom
+.Restoring to an old valid value of 'Custom'
+
+
+3. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:axi_gpio:2.0 -user_name design_1_axi_gpio_0_0
+set_property -dict "\
+  CONFIG.C_ALL_INPUTS {0} \
+  CONFIG.C_ALL_INPUTS_2 {0} \
+  CONFIG.C_ALL_OUTPUTS {0} \
+  CONFIG.C_ALL_OUTPUTS_2 {0} \
+  CONFIG.C_DOUT_DEFAULT {0x00000000} \
+  CONFIG.C_DOUT_DEFAULT_2 {0x00000000} \
+  CONFIG.C_GPIO2_WIDTH {32} \
+  CONFIG.C_GPIO_WIDTH {4} \
+  CONFIG.C_INTERRUPT_PRESENT {0} \
+  CONFIG.C_IS_DUAL {0} \
+  CONFIG.C_TRI_DEFAULT {0xFFFFFFFF} \
+  CONFIG.C_TRI_DEFAULT_2 {0xFFFFFFFF} \
+  CONFIG.Component_Name {design_1_axi_gpio_0_0} \
+  CONFIG.GPIO.BOARD.ASSOCIATED_PARAM {GPIO_BOARD_INTERFACE} \
+  CONFIG.GPIO2_BOARD_INTERFACE {Custom} \
+  CONFIG.GPIO_BOARD_INTERFACE {leds_4bits} \
+  CONFIG.S_AXI_ACLK.ASSOCIATED_BUSIF {S_AXI} \
+  CONFIG.S_AXI_ACLK.ASSOCIATED_RESET {s_axi_aresetn} \
+  CONFIG.S_AXI_ARESETN.POLARITY {ACTIVE_LOW} \
+  CONFIG.USE_BOARD_FLOW {true} " [get_ips design_1_axi_gpio_0_0]
+
+

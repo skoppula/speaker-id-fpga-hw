@@ -1,0 +1,11 @@
+/*
+ * Empty C++ Application
+ */
+#include<algorithm>
+#include "vector.h"
+
+
+int main()
+{
+	return 0;
+}
