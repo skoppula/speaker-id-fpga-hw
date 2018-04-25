@@ -95,7 +95,7 @@ int main()
 				xil_printf("  [ZYNC] Computing cepstral features...\r\n");
 				XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, 4);
 				for (Delay = 0; Delay < LED_DELAY; Delay++);
-				xil_printf("  [ZYNC] Done computing cepstral features...\r\n");
+				xil_printf(" [ZYNC] Done computing cepstral features...\r\n");
 
 				xil_printf("  [ZYNC] Evaluating frames on PL...\r\n");
 				XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, 2);

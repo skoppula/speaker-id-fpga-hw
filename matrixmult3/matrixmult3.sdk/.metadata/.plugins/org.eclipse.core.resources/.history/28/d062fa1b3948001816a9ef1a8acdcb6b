@@ -35,7 +35,8 @@ int main()
 {
     init_platform();
 
-    print("  [ZYNC] Welcome to the demo speaker ID FPGA front-end application!\n\n");
+    print(" [ZYNC] Welcome to the demo speaker ID FPGA front-end application!\n\n");
+    char message[] = " [ZYNC] Press 'm' to load pre-trained DNN SID model into BRAM, 's' to start speaker verification.  Any other key to repeat menu.\n";
 
 	u8 inp = 0x00;
 	u32 CntrlRegister;
@@ -50,12 +51,12 @@ int main()
 	Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
 
 	if (Status != XST_SUCCESS) {
-			xil_printf("  [ZYNC] GPIO output to the LEDs failed!\r\n");
+			xil_printf(" [ZYNC] GPIO output to the LEDs failed!\r\n");
 
 	} else {
 		XGpio_SetDataDirection(&Gpio, LED_CHANNEL, 0x0);
 
-		xil_printf("  [ZYNC] Press 'm' to load pre-trained DNN SID model into BRAM, 's' to start speaker verification.  Any other key to repeat menu.\n");
+		print(message);
 		do {
 			XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, 0);
 			while (!XUartPs_IsReceiveData(UART_BASEADDR));
@@ -65,19 +66,19 @@ int main()
 			case 13:
 				break;
 			case 'm':
-				xil_printf("  [ZYNC] Starting model load...\r\n");
+				xil_printf(" [ZYNC] Starting model load...\r\n");
 				for (Delay = 0; Delay < LED_DELAY; Delay++);
 
-				xil_printf("  [ZYNC] Waiting for model parameters over UART...\r\n");
+				xil_printf("[ZYNC] Waiting for model parameters over UART...\r\n");
 				XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, 1);
 				for(int i = 0; i < 2; i++) {
 					while (!XUartPs_IsReceiveData(UART_BASEADDR));
 					inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
 				}
 				for (Delay = 0; Delay < LED_DELAY*10; Delay++);
-				xil_printf("  [ZYNC] Done receiving params and loading them to shared memory.\r\n");
+				xil_printf(" [ZYNC] Done receiving params and loading them to shared memory.\r\n");
 
-				xil_printf("  [ZYNC] Press 'm' to load pre-trained DNN SID model into BRAM, 's' to start speaker verification.  Any other key to repeat menu.\n");
+				print(message);
 				break;
 
 			case 's':
@@ -95,7 +96,7 @@ int main()
 				xil_printf("  [ZYNC] Computing cepstral features...\r\n");
 				XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, 4);
 				for (Delay = 0; Delay < LED_DELAY; Delay++);
-				xil_printf("  [ZYNC] Done computing cepstral features...\r\n");
+				xil_printf(" [ZYNC] Done computing cepstral features...\r\n");
 
 				xil_printf("  [ZYNC] Evaluating frames on PL...\r\n");
 				XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, 2);
@@ -104,14 +105,14 @@ int main()
 
 				xil_printf("  [ZYNC] Sending result back over UART.\n\n");
 				XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, 1);
-				for (Delay = 0; Delay < LED_DELAY; Delay++);
+				for (Delay = 0; Delay < LED_DELAY*2; Delay++);
 
-				xil_printf("  [ZYNC] Press 'm' to load pre-trained DNN SID model into BRAM, 's' to start speaker verification.  Any other key to repeat menu.\n");
+				print(message);
 				break;
 
 			default:
 				xil_printf("  [ZYNC] Did not recognize character: %d. Try again! \r\n", inp);
-				xil_printf("  [ZYNC] Press 'm' to load pre-trained DNN SID model into BRAM, 's' to start speaker verification.  Any other key to repeat menu.\n");
+				print(message);
 				break;
 			}
 		} while(1);

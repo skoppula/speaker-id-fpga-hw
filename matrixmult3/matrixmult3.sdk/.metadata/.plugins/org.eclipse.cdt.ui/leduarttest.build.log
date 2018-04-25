@@ -1,8 +1,8 @@
-15:32:26 **** Incremental Build of configuration Release for project leduarttest ****
+00:03:56 **** Incremental Build of configuration Release for project leduarttest ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  
 make: Nothing to be done for 'main-build'.
 
-15:32:27 Build Finished (took 414ms)
+00:03:56 Build Finished (took 309ms)
 

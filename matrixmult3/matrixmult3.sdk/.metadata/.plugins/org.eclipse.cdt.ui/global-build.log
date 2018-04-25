@@ -1835,3 +1835,575 @@ make pre-build main-build
 a9-linaro-pre-build-step
  
 make: Nothing to be done for 'main-build'.
+22:59:09 **** Auto Build of configuration Debug for project dramtest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+22:59:09 **** Build of project leduart_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_2/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_2/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_6/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_2/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_2/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling gpio
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_6/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scugic
+xscugic_g.c:53:2: warning: missing initializer for field 'HandlerTable' of 'XScuGic_Config {aka struct <anonymous>}' [-Wmissing-field-initializers]
+  }
+  ^
+In file included from xscugic_g.c:41:0:
+xscugic.h:217:27: note: 'HandlerTable' declared here
+  XScuGic_VectorTableEntry HandlerTable[XSCUGIC_MAX_NUM_INTR_INPUTS];/**<
+                           ^~~~~~~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+22:59:16 **** Clean-only build of configuration Release for project leduart ****
+make clean 
+rm -rf  ./src/leduarttest.o ./src/platform.o  ./src/leduarttest.d ./src/platform.d  leduart.elf.size  leduart.elf
+ 
+22:59:16 **** Build of configuration Release for project leduart ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/leduarttest.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/leduarttest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../leduart_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/leduarttest.d" -MT"src/leduarttest.o" -o "src/leduarttest.o" "../src/leduarttest.c"
+Finished building: ../src/leduarttest.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../leduart_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: leduart.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../leduart_bsp/ps7_cortexa9_0/lib -o "leduart.elf"  ./src/leduarttest.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: leduart.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size leduart.elf  |tee "leduart.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25844	   1172	  22600	  49616	   c1d0	leduart.elf
+Finished building: leduart.elf.size
+ 
+22:59:17 **** Auto Build of configuration Release for project leduarttest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+22:59:17 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28708	   1172	  22600	  52480	   cd00	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+22:59:18 **** Auto Build of configuration Debug for project stltest2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+22:59:25 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28704	   1172	  22600	  52476	   ccfc	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+23:03:14 **** Incremental Build of configuration Debug for project dramtest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:03:15 **** Incremental Build of configuration Release for project leduart ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:03:16 **** Incremental Build of configuration Release for project leduarttest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:03:17 **** Incremental Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:03:18 **** Incremental Build of configuration Debug for project stltest2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:30:38 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28784	   1172	  22600	  52556	   cd4c	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+23:30:51 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28784	   1172	  22600	  52556	   cd4c	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+23:31:07 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28788	   1172	  22600	  52560	   cd50	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+23:31:15 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28788	   1172	  22600	  52560	   cd50	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+23:31:27 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28792	   1172	  22600	  52564	   cd54	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+23:31:30 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28792	   1172	  22600	  52564	   cd54	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+23:37:41 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:58:9: error: 'message' undeclared (first use in this function)
+   print(message);
+         ^~~~~~~
+../src/speakeridui.c:58:9: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:24: recipe for target 'src/speakeridui.o' failed
+make: *** [src/speakeridui.o] Error 1
+23:37:48 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:58:9: error: 'message' undeclared (first use in this function)
+   print(message);
+         ^~~~~~~
+../src/speakeridui.c:58:9: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:24: recipe for target 'src/speakeridui.o' failed
+make: *** [src/speakeridui.o] Error 1
+23:38:00 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:80:11: error: 'message' undeclared (first use in this function)
+     print(message);
+           ^~~~~~~
+../src/speakeridui.c:80:11: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/speakeridui.o] Error 1
+src/subdir.mk:24: recipe for target 'src/speakeridui.o' failed
+23:38:15 **** Incremental Build of configuration Debug for project dramtest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:38:16 **** Incremental Build of configuration Release for project leduart ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:38:17 **** Incremental Build of configuration Release for project leduarttest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:38:18 **** Incremental Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:80:11: error: 'message' undeclared (first use in this function)
+     print(message);
+           ^~~~~~~
+../src/speakeridui.c:80:11: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/speakeridui.o] Error 1
+src/subdir.mk:24: recipe for target 'src/speakeridui.o' failed
+23:38:19 **** Incremental Build of configuration Debug for project stltest2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:38:29 **** Incremental Build of configuration Debug for project dramtest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:38:30 **** Incremental Build of configuration Release for project leduart ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:38:31 **** Incremental Build of configuration Release for project leduarttest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:38:31 **** Incremental Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:80:11: error: 'message' undeclared (first use in this function)
+     print(message);
+           ^~~~~~~
+../src/speakeridui.c:80:11: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:24: recipe for target 'src/speakeridui.o' failed
+make: *** [src/speakeridui.o] Error 1
+23:38:32 **** Incremental Build of configuration Debug for project stltest2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:43:59 **** Incremental Build of configuration Debug for project dramtest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:44:00 **** Incremental Build of configuration Release for project leduart ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:44:01 **** Incremental Build of configuration Release for project leduarttest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:44:02 **** Incremental Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:80:11: error: 'message' undeclared (first use in this function)
+     print(message);
+           ^~~~~~~
+../src/speakeridui.c:80:11: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:24: recipe for target 'src/speakeridui.o' failed
+make: *** [src/speakeridui.o] Error 1
+23:44:03 **** Incremental Build of configuration Debug for project stltest2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:44:15 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+../src/speakeridui.c: In function 'main':
+../src/speakeridui.c:114:11: error: 'message' undeclared (first use in this function)
+     print(message);
+           ^~~~~~~
+../src/speakeridui.c:114:11: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/speakeridui.o] Error 1
+src/subdir.mk:24: recipe for target 'src/speakeridui.o' failed
+23:44:23 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27248	   1172	  22600	  51020	   c74c	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+23:44:35 **** Incremental Build of configuration Debug for project dramtest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:44:36 **** Incremental Build of configuration Release for project leduart ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:44:37 **** Incremental Build of configuration Release for project leduarttest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:44:38 **** Incremental Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:44:39 **** Incremental Build of configuration Debug for project stltest2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+23:45:40 **** Auto Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/speakeridui.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/speakeridui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../speakeridui_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/speakeridui.d" -MT"src/speakeridui.o" -o "src/speakeridui.o" "../src/speakeridui.c"
+Finished building: ../src/speakeridui.c
+ 
+Building target: speakeridui.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../speakeridui_bsp/ps7_cortexa9_0/lib -o "speakeridui.elf"  ./src/platform.o ./src/speakeridui.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: speakeridui.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size speakeridui.elf  |tee "speakeridui.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27248	   1172	  22600	  51020	   c74c	speakeridui.elf
+Finished building: speakeridui.elf.size
+ 
+00:03:54 **** Incremental Build of configuration Debug for project dramtest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:03:55 **** Incremental Build of configuration Release for project leduart ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:03:56 **** Incremental Build of configuration Release for project leduarttest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:03:57 **** Incremental Build of configuration Release for project speakeridui ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+00:03:58 **** Incremental Build of configuration Debug for project stltest2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.

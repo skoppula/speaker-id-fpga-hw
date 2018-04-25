@@ -1,8 +1,8 @@
-15:32:29 **** Incremental Build of configuration Debug for project stltest2 ****
+00:03:58 **** Incremental Build of configuration Debug for project stltest2 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  
 make: Nothing to be done for 'main-build'.
 
-15:32:29 Build Finished (took 413ms)
+00:03:58 Build Finished (took 260ms)
 
